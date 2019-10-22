@@ -1,8 +1,10 @@
 import { isEmpty } from "./helper";
 
-import './style.css';
-import './main.css';
+import "./style.css";
+import "./main.css";
 
-console.log(isEmpty(""), isEmpty("asd"), isEmpty([1, 2]));
+import imgSrc from "./test.jpg";
 
-document.body.append(document.createTextNode('Hello'));
+const img = new Image();
+img.src = imgSrc;
+document.body.append(img);

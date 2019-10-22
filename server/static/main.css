@@ -1,6 +1,7 @@
 body {
-  background: #333;
+  background: #333 url(http://localhost:3000/static/test.jpg);
 }
+
 body {
   color: #fff;
 }
